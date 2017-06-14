@@ -1,0 +1,249 @@
+body{
+    margin:0;
+    padding:0;
+    display:none;
+}
+
+#welcome{
+    /*block properties*/
+    float:left;
+    clear:left;
+    position:relative;
+    background-color:lightpink;
+    width:30%;
+    height:100%;
+}
+
+#JAA_txt{
+    /*box properties*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid lightblue;
+    border-radius:20px;
+    padding:10px;
+    
+    /*text properties*/
+    text-align:center;
+    font-family: 'Raleway Dots';
+    font-weight:bold;
+    font-size: 75px;
+    color:ghostwhite;
+    display:none;
+}
+
+#JAA_txt:hover{
+    background-color:ghostwhite;
+    color:lightpink;
+}
+
+#right_side{
+    float:right;
+    clear: right;
+    position:relative;
+    background-color:ghostwhite;
+    width:70%;
+    height:100%;
+}
+
+#selections{
+    position:relative;
+    width:100%;
+    height:50%;
+}
+
+.flex_container{
+    display:flex;
+    flex-direction:row;
+    width:100%
+}
+
+#button_about{
+    width:33.33%;
+    height:50%;
+    /*border: 2px solid lightblue;*/
+    color:lightpink;
+    display:none;
+    
+}
+#button_about:hover{
+    background-color:lightblue;
+    color:ghostwhite;
+    border: 2px solid lightpink;
+}
+
+#button_members{
+    width:33.33%;
+    height:50%;
+    /*border: 2px solid lightblue;*/
+    color:lightpink;
+    display:none;
+}
+#button_members:hover{
+    background-color:lightblue;
+    color:ghostwhite;
+    border: 2px solid lightpink;
+}
+
+#button_loctim{
+    width:33.33%;
+    height:50%;
+    /*border: 2px solid lightblue;*/
+    color:lightpink;
+    display:none;
+}
+#button_loctim:hover{
+    background-color:lightblue;
+    color:ghostwhite;
+    border: 2px solid lightpink;
+}
+
+#button_sched{
+    width:33.33%;
+    height:50%;
+    /*border: 2px solid lightblue;*/
+    color:lightpink;
+    display:none;
+}
+#button_sched:hover{
+    background-color:lightblue;
+    color:ghostwhite;
+    border: 2px solid lightpink;
+}
+
+#button_gal{
+    width:33.33%;
+    height:50%;
+    /*border: 2px solid lightblue;*/
+    color:lightpink;
+    display:none;
+}
+#button_gal:hover{
+    background-color:lightblue;
+    color:ghostwhite;
+    border: 2px solid lightpink;
+}
+
+#button_con{
+    width:33.33%;
+    height:50%;
+    /*border: 2px solid lightblue;*/
+    color:lightpink;
+    display:none;
+}
+#button_con:hover{
+    background-color:lightblue;
+    color:ghostwhite;
+    border: 2px solid lightpink;
+}
+
+.txt{
+    /*positioning*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /*text-properties*/
+    text-transform:uppercase;
+    font-family: 'Raleway Dots';
+    font-weight:bold;
+    font-size:40px;
+    text-align:center;
+}
+
+#terminal{
+    background-color:lightblue;
+    /*border:2px solid lightblue;*/
+    position:relative;
+    width:100%;
+    height:50%;
+    border-top: 2px solid lightpink;
+}
+
+#terminal_contents{
+    /*positioning*/
+    position:absolute;
+    width:75%;
+    height:75%;
+    left:12.5%;
+    top:12.5%;
+    
+    /*text*/
+    text-align:center;
+    font-family:'Raleway Dots';
+    font-size: 30px;
+    color:ghostwhite;
+    font-weight:bold;
+    display:none;
+}
+
+#terminal_start{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+}
+
+#terminal_about{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+    display:none;
+}
+
+#terminal_members{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:ghostwhite;
+    font-weight:bold;
+    display:none;
+}
+
+#terminal_gallery{
+    /*position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image:url(../images/Sakura_background.jpg);
+    background-size:contain;
+    background-size:cover;
+    background-repeat:no-repeat;*/
+    display:none;
+}
+
+.mySlides {
+    display:none;
+}
+
+#terminal_loctim{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:none;
+}
+
+#terminal_schedule{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:none;
+}
+
+#terminal_contact{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:none;
+}
+
+

@@ -28,9 +28,11 @@ body{
     text-align:center;
     font-family: 'Raleway Dots';
     font-weight:bold;
-    font-size: 75px;
+    /*font-size: 75px;*/
+    font-size: 3vw;
     color:ghostwhite;
     display:none;
+    cursor: default;
 }
 
 #JAA_txt:hover{
@@ -146,11 +148,12 @@ body{
     transform: translate(-50%, -50%);
     
     /*text-properties*/
-    text-transform:uppercase;
     font-family: 'Raleway Dots';
     font-weight:bold;
-    font-size:40px;
+    /*font-size:40px;*/
+    font-size: 2vw;
     text-align:center;
+    cursor:default;
 }
 
 #terminal{
@@ -173,10 +176,11 @@ body{
     /*text*/
     text-align:center;
     font-family:'Raleway Dots';
-    font-size: 30px;
+    font-size: 1.5vw;
     color:ghostwhite;
     font-weight:bold;
     display:none;
+    cursor:default;
 }
 
 #terminal_start{
@@ -218,8 +222,14 @@ body{
     display:none;
 }
 
-.mySlides {
-    display:none;
+.mySlides{
+    position:absolute;
+    right: 0.05%;
+    transition: opacity .5s ease-in;
+}
+
+.mySlides + .mySlides{
+    opacity: 0;
 }
 
 #terminal_loctim{
